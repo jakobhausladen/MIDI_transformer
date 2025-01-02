@@ -34,11 +34,11 @@ This gives us roughly 850,000 trainable parameters. The model was trained using 
 
 Training was stopped after 120 epochs, before the model had fully converged. Dropout was successful in preventing overfitting, which had beed a problem with earier models.
 
-![alt text](training_history-1.png)
+![training history](training_history.png)
 
 Below, you find a particularily nice example of a 6-measure sequence, generated using the first 1.5 measures of John Dowland's *Lachrimae* as prompt. The corrsponding MIDI `lachimae_nice.mid` can be found in the top-level directory of this repository, if you want to take a listen.
 
-![alt text](Capture.PNG)
+![piano roll](lachrimae_nice_piano_roll.PNG)
 
 ### Longer Pieces
 
